@@ -1,5 +1,7 @@
 #!/bin/bash
-sudo yum install unzip -y
-sudo yum install wget -y
-sudo cd /opt/
-sudo mkdir gopi
+cd /opt/
+rm -rf gopi
+mkdir gopi
+touch f1
+touch f2
+
